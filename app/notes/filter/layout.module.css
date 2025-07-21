@@ -1,0 +1,15 @@
+.section {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.aside {
+    width: 100%;
+    max-width: 200px;
+    min-height: 100%;
+    background-color: #111;
+}
+
+.container {
+    width: 100%;
+}
