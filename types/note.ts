@@ -13,7 +13,7 @@ export interface CreateNoteValues {
     tag: Tag;
 }
 
-type Tag = "Work" | "Personal" | "Meeting" | "Shopping" | "Todo";
+export type Tag = "Work" | "Personal" | "Meeting" | "Shopping" | "Todo";
 
 export interface FetchNotesValues {
     notes: Note[];
